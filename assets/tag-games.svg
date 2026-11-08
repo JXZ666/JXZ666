@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="22" viewBox="0 0 56 22">
+  <title>游戏</title>
+  <path d="M5 .5h50.5V17L51 21.5H.5V5z" fill="#21182D" stroke="#896BB1"/>
+  <g fill="none" stroke="#D7BBFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.1">
+    <path d="M12 7.5h5c1.5 0 2.5 1 2.8 2.6l.6 3.2c.3 1.6-1 2.3-2 1.4l-1.7-1.5h-4.4l-1.7 1.5c-1 .9-2.3.2-2-1.4l.6-3.2c.3-1.6 1.3-2.6 2.8-2.6z"/>
+    <path d="M11.4 10.5h2.2m-1.1-1.1v2.2"/>
+  </g>
+  <circle cx="16.7" cy="10.5" r=".55" fill="#D7BBFF"/>
+  <circle cx="18.2" cy="10.5" r=".55" fill="#D7BBFF"/>
+  <text x="24" y="15" fill="#F8F0FF" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', sans-serif" font-size="12" font-weight="600">游戏</text>
+</svg>

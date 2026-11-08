@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="68" height="22" viewBox="0 0 68 22">
+  <title>二次元</title>
+  <path d="M5 .5h62.5V17L63 21.5H.5V5z" fill="#24172B" stroke="#A7618B"/>
+  <path d="M14 5c.9 3.6 2.1 4.8 5.8 5.8-3.7.9-4.9 2.1-5.8 5.7-.9-3.6-2.2-4.8-5.8-5.7C11.8 9.8 13.1 8.6 14 5Z" fill="#FFA9CF"/>
+  <circle cx="19" cy="6.1" r=".9" fill="#FFA9CF"/>
+  <text x="24" y="15" fill="#F8F0FF" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', sans-serif" font-size="12" font-weight="600">二次元</text>
+</svg>

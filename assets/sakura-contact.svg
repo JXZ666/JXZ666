@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="56" viewBox="0 0 600 56">
+  <title>樱花飘落 · 联系</title>
+  <style>
+    .petal { transform-box: fill-box; transform-origin: center; opacity: .95; animation: drift 8s linear infinite; }
+    .reverse { animation-name: drift-back; }
+    .p1 { animation-delay: -3.7s; }
+    .p2 { animation-delay: -6.3s; }
+    .p3 { animation-delay: -1.4s; }
+    .p4 { animation-delay: -7.5s; }
+    .p5 { animation-delay: -4.9s; }
+    .p6 { animation-delay: -2.6s; }
+    @keyframes drift {
+      0% { transform: translate(-18px, -46px) rotate(-24deg); opacity: 0; }
+      18%, 82% { opacity: .95; }
+      100% { transform: translate(18px, 46px) rotate(32deg); opacity: 0; }
+    }
+    @keyframes drift-back {
+      0% { transform: translate(16px, -46px) rotate(28deg); opacity: 0; }
+      18%, 82% { opacity: .95; }
+      100% { transform: translate(-16px, 46px) rotate(-30deg); opacity: 0; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .petal { animation: none; transform: none; opacity: .95; }
+    }
+  </style>
+  <defs>
+    <path id="petal" d="M0 10C-10 4-10-4-5-9L-1-6 1-11C10-9 12 3 0 10Z" stroke="#B72B69" stroke-width="1" stroke-linejoin="round"/>
+    <linearGradient id="vertical-fade" x1="0" y1="0" x2="0" y2="100%">
+      <stop offset="0" stop-color="white" stop-opacity="0"/>
+      <stop offset=".24" stop-color="white"/>
+      <stop offset=".76" stop-color="white"/>
+      <stop offset="1" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="petal-edges" maskUnits="userSpaceOnUse" x="0" y="0" width="600" height="56">
+      <rect width="600" height="56" fill="url(#vertical-fade)"/>
+    </mask>
+  </defs>
+  <g mask="url(#petal-edges)">
+    <g transform="translate(62 23)"><g class="petal p1"><use href="#petal" fill="#EA77B0" transform="rotate(-38)"/></g></g>
+    <g transform="translate(156 32)"><g class="petal reverse p2"><use href="#petal" fill="#FBC3D9" transform="rotate(24)"/></g></g>
+    <g transform="translate(250 22)"><g class="petal p3"><use href="#petal" fill="#F6A2C9" transform="rotate(52)"/></g></g>
+    <g transform="translate(350 34)"><g class="petal reverse p4"><use href="#petal" fill="#EA77B0" transform="rotate(-12)"/></g></g>
+    <g transform="translate(446 23)"><g class="petal p5"><use href="#petal" fill="#FBC3D9" transform="rotate(-48)"/></g></g>
+    <g transform="translate(538 32)"><g class="petal reverse p6"><use href="#petal" fill="#F6A2C9" transform="rotate(36)"/></g></g>
+  </g>
+</svg>

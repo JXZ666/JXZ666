@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="68" height="22" viewBox="0 0 68 22">
+  <title>爱折腾</title>
+  <path d="M5 .5h62.5V17L63 21.5H.5V5z" fill="#25182B" stroke="#9A679B"/>
+  <path d="m19.5 7.5-2.1 2.1-2-.5-.5-2 2-2.1a3.7 3.7 0 0 0-4.7 4.7l-3.8 3.8a1.6 1.6 0 0 0 2.2 2.2l3.8-3.8a3.7 3.7 0 0 0 5.1-4.4Z" fill="none" stroke="#F1B4EF" stroke-linejoin="round" stroke-width="1.15"/>
+  <text x="24" y="15" fill="#F8F0FF" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', sans-serif" font-size="12" font-weight="600">爱折腾</text>
+</svg>
