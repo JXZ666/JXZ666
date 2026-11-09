@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/neon-sakura.gif" width="300" alt="霓虹樱刃：剑舞流光少女">
+  <img src="./assets/neon-sakura.gif" width="478" alt="赤月樱花下的流光剑舞">
 </p>
 
 <p align="center">学电气的大学生一枚，没事喜欢自己瞎捣鼓点东西</p>
